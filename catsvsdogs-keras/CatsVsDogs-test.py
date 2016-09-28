@@ -1,3 +1,7 @@
+##
+# TODO: Add Data folder
+##
+
 from keras.models import Model
 from keras.preprocessing import image
 
