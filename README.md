@@ -6,7 +6,7 @@ The task is straightforward: given an image, determine if it contains a cat or a
 
 We’ll be  training a small network from Scratch (as a baseline)
 
-We’ll be using the following theory in Keras
+We’ll be making use of the following methods in Keras
 
 * fit_generator for training Keras a model using Python data generators
 * ImageDataGenerator for real-time data augmentation
@@ -18,9 +18,11 @@ We’ll be using the following theory in Keras
 Training time : 70*50 = 3500/60 -> Nearly 1 hour on a CPU Machine
 
 >Pertained model file:
+
 catsdogs-baseline.h5
 
 >Run
+
 python cat-test.py
 
 
